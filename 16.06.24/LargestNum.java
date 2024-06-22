@@ -17,7 +17,7 @@ public class LargestNum{
 			largestNum = number;
 
 		}
-		else if(number < smallestNum){
+		if(number < smallestNum){
 			smallestNum = number;
 		}
 
@@ -29,3 +29,10 @@ public class LargestNum{
 
 	}
 }
+
+
+		/*if(numRange.equalsIgnoreCase("e")){
+			break;
+		}
+**/
+		//int number = Integer.parseInt(numRange);
